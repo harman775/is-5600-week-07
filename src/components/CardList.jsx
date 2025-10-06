@@ -9,6 +9,7 @@ const CardList = ({ data }) => {
   const [offset, setOffset] = useState(0);
 
   // Define the products state variable and set it to the default dataset
+  // some updates
   const [products, setProducts] = useState();
 
   const filterTags = (tagQuery) => {
